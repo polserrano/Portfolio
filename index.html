@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Portfolio de Pol Serrano Aromí — estudiante de DAM y técnico SMR.">
+  <title>Pol Serrano Aromí — Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb--one" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb--two" aria-hidden="true"></div>
+  <div class="grid-glow" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#top" aria-label="Volver al inicio">
+        <span class="brand-mark">P</span>
+        <span>Pol Serrano</span>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">Sobre mí</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contacto</a>
+      </div>
+
+      <a class="nav-cta" href="mailto:aromi.serrano.pol@gmail.com">Hablemos <span>↗</span></a>
+
+      <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section container" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Disponible para aprender, crear y colaborar</div>
+        <p class="hero-kicker">DAM · SMR · SYSTEMS · SOFTWARE</p>
+        <h1 id="hero-title"><span>Pol Serrano</span><em>Aromí.</em></h1>
+        <p class="hero-subtitle">Estudiante de Desarrollo de Aplicaciones Multiplataforma y Técnico en Sistemas Microinformáticos y Redes.</p>
+        <p class="hero-quote">“Don't be afraid of falling, be afraid of not trying.”</p>
+        <div class="hero-actions">
+          <a class="button button--primary" href="#projects">Ver proyectos <span>↓</span></a>
+          <a class="button button--ghost" href="mailto:aromi.serrano.pol@gmail.com">Contacto <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal reveal--delay" aria-label="Foto de perfil de Pol Serrano">
+        <div class="profile-frame">
+          <div class="profile-glow"></div>
+          <div class="profile-image-wrap">
+            <img src="assets/profile.jpg" alt="Foto de perfil de Pol Serrano" onerror="this.classList.add('missing-image')">
+            <div class="profile-fallback">
+              <span>PS</span>
+              <small>Añade tu foto en<br><b>assets/profile.jpg</b></small>
+            </div>
+          </div>
+          <div class="profile-meta">
+            <div><span class="mini-label">BASE</span><strong>Mataró, Barcelona</strong></div>
+            <div><span class="mini-label">FOCUS</span><strong>Desarrollo & sistemas</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats container reveal" aria-label="Resumen">
+      <div class="stat"><strong>2024</strong><span>Inicio en SMR</span></div>
+      <div class="stat"><strong>2026</strong><span>Inicio en DAM</span></div>
+      <div class="stat"><strong>03</strong><span>Proyectos destacados</span></div>
+      <div class="stat"><strong>∞</strong><span>Ganas de aprender</span></div>
+    </section>
+
+    <section class="section container section-grid" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="section-index">01 / SOBRE MÍ</p>
+        <h2 id="about-title">Tecnología primero.<br><span>Curiosidad siempre.</span></h2>
+      </div>
+      <div class="about-content reveal reveal--delay">
+        <p class="lead">👋 Hola, soy Pol.</p>
+        <p>Técnico en Sistemas Microinformáticos y Redes (SMR), con experiencia en soporte técnico, mantenimiento de equipos informáticos, administración básica de sistemas y resolución de incidencias.</p>
+        <p>Me apasiona la tecnología y disfruto aprendiendo continuamente sobre nuevas herramientas y soluciones informáticas. Mis proyectos me han ayudado a reforzar la resolución de problemas, el trabajo en equipo, la organización y la adaptación a nuevos entornos.</p>
+        <p>Actualmente estoy cursando DAM para ampliar mis conocimientos en programación y desarrollo de software, combinando mi experiencia en sistemas con el desarrollo de aplicaciones.</p>
+      </div>
+    </section>
+
+    <section class="section container education" aria-labelledby="education-title">
+      <div class="section-heading reveal">
+        <p class="section-index">02 / FORMACIÓN</p>
+        <h2 id="education-title">Mi camino<br><span>hasta aquí.</span></h2>
+      </div>
+      <div class="timeline reveal reveal--delay">
+        <article class="timeline-item">
+          <div class="timeline-date">2024 — 2026</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <p class="card-label">CFGM</p>
+            <h3>Sistemas Microinformáticos y Redes</h3>
+            <p>Escola Pia de Mataró</p>
+            <span class="card-note">Sistemas · Hardware · Redes · Soporte</span>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2026 — 2028</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card timeline-card--active">
+            <p class="card-label">CFGS · ACTUALMENTE</p>
+            <h3>Desarrollo de Aplicaciones Multiplataforma</h3>
+            <p>DAM</p>
+            <span class="card-note">Programación · Bases de datos · Desarrollo de software</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container projects" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading section-heading--wide reveal">
+        <p class="section-index">03 / PROYECTOS</p>
+        <h2 id="projects-title">Trabajo que puedes <span>ver.</span></h2>
+        <p class="section-intro">Una selección de proyectos realizados durante SMR, entre desarrollo web y prototipado de interfaces.</p>
+      </div>
+
+      <div class="projects-list">
+        <article class="project-card project-card--featured reveal">
+          <div class="project-media">
+            <img src="assets/projects/web-corporativa.png" alt="Captura del proyecto Web Corporativa" onerror="this.classList.add('missing-image')">
+            <div class="project-media-fallback"><span>01</span><small>Añade la captura en<br><b>assets/projects/web-corporativa.png</b></small></div>
+            <div class="project-number">01</div>
+          </div>
+          <div class="project-body">
+            <div>
+              <p class="project-label">DESARROLLO WEB</p>
+              <h3>Web Corporativa</h3>
+              <p>Creación de una web corporativa con enfoque visual, estructura responsive y experiencia de navegación clara.</p>
+              <div class="tags"><span>HTML5</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+            <a class="project-link" href="https://polserrano.github.io/web-corporativa/" target="_blank" rel="noreferrer">Ver proyecto <span>↗</span></a>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-media project-media--small">
+              <img src="assets/projects/oculus.png" alt="Captura del prototipo de Oculus Quest en Figma" onerror="this.classList.add('missing-image')">
+              <div class="project-media-fallback"><span>02</span><small>Añade la captura en<br><b>assets/projects/oculus.png</b></small></div>
+              <div class="project-number">02</div>
+            </div>
+            <div class="project-body">
+              <p class="project-label">UI / UX · FIGMA</p>
+              <h3>Oculus Quest</h3>
+              <p>Prototipo de interfaz realizado en Figma, trabajando jerarquía visual, estructura y navegación.</p>
+              <div class="tags"><span>Figma</span><span>UI</span><span>UX</span></div>
+              <a class="project-link" href="https://www.figma.com/design/M4ENHjmrbp7usVrbm3p5ta/T13--P%C3%A0gina-web----Pau-C-i-Pol-S?m=auto&t=zc3KtH6Rq1FZLDQy-6" target="_blank" rel="noreferrer">Ver diseño <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal--delay">
+            <div class="project-media project-media--small">
+              <img src="assets/projects/agutin-service-system.png" alt="Captura del prototipo Agutín Service System en Figma" onerror="this.classList.add('missing-image')">
+              <div class="project-media-fallback"><span>03</span><small>Añade la captura en<br><b>assets/projects/agutin-service-system.png</b></small></div>
+              <div class="project-number">03</div>
+            </div>
+            <div class="project-body">
+              <p class="project-label">UI / UX · FIGMA</p>
+              <h3>Agutín Service System</h3>
+              <p>Propuesta de web para una empresa ficticia, centrada en presentación, estructura y experiencia de usuario.</p>
+              <div class="tags"><span>Figma</span><span>UI</span><span>Prototyping</span></div>
+              <a class="project-link" href="https://www.figma.com/design/l4Bz49j3YlGAdX0wCzjvpt/Home--Agut%C3%ADn-Service-System?m=auto&t=zc3KtH6Rq1FZLDQy-6" target="_blank" rel="noreferrer">Ver diseño <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container skills" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading reveal">
+        <p class="section-index">04 / TECH STACK</p>
+        <h2 id="skills-title">Herramientas para<br><span>construir cosas.</span></h2>
+      </div>
+      <div class="skills-grid reveal reveal--delay">
+        <article class="skill-card">
+          <div class="skill-icon">⌘</div>
+          <p class="card-label">LENGUAJES</p>
+          <h3>Programming</h3>
+          <div class="skill-tags"><span>Java</span><span>HTML5</span><span>PHP</span><span>Python</span><span>Shell Script</span><span>Markdown</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">↗</div>
+          <p class="card-label">HERRAMIENTAS</p>
+          <h3>Workflow</h3>
+          <div class="skill-tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Linux</span><span>Figma</span><span>Arduino</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">◌</div>
+          <p class="card-label">SISTEMAS</p>
+          <h3>Platforms</h3>
+          <div class="skill-tags"><span>Windows</span><span>Linux</span><span>Android</span><span>Debian</span><span>Ubuntu</span><span>Raspberry Pi</span></div>
+        </article>
+        <article class="skill-card skill-card--accent">
+          <div class="skill-icon">+</div>
+          <p class="card-label">EN PROGRESO</p>
+          <h3>DAM</h3>
+          <div class="skill-tags"><span>Java</span><span>App development</span><span>Databases</span><span>Software</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container values" aria-labelledby="values-title">
+      <div class="values-panel reveal">
+        <div>
+          <p class="section-index">05 / MI FORMA DE TRABAJAR</p>
+          <h2 id="values-title">Menos ruido.<br><span>Más producto.</span></h2>
+        </div>
+        <div class="values-list">
+          <div><span>01</span><strong>Aprender haciendo</strong><p>Me gusta entender la tecnología a través de proyectos reales.</p></div>
+          <div><span>02</span><strong>Resolver problemas</strong><p>Analizar, probar, corregir y volver a intentarlo forma parte del proceso.</p></div>
+          <div><span>03</span><strong>Cuidar los detalles</strong><p>Una buena solución también debe ser clara, usable y fácil de mantener.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-card reveal">
+        <div class="contact-copy">
+          <p class="section-index">06 / CONTACTO</p>
+          <h2 id="contact-title">¿Hacemos algo<br><span>interesante?</span></h2>
+          <p>Estoy abierto a seguir aprendiendo, participar en proyectos y conocer nuevas oportunidades dentro de la informática y el desarrollo de software.</p>
+          <a class="email-link" href="mailto:aromi.serrano.pol@gmail.com">aromi.serrano.pol@gmail.com <span>↗</span></a>
+        </div>
+        <div class="contact-actions">
+          <a href="https://github.com/polserrano" target="_blank" rel="noreferrer"><span>GitHub</span><span>↗</span></a>
+          <a href="https://www.linkedin.com/in/polserranoo/" target="_blank" rel="noreferrer"><span>LinkedIn</span><span>↗</span></a>
+          <button type="button" id="copy-email"><span>Copiar email</span><span>⧉</span></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year"></span> Pol Serrano Aromí</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Email copiado</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
